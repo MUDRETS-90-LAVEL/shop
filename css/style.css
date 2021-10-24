@@ -50,7 +50,7 @@
 .cart a{
     margin-right: 10px;
 }
-.cart p{
+.cart label{
     display: inline-block;
     color: darkgreen;
     font-size: 18px;
@@ -59,4 +59,24 @@
 .cart span{
     font-weight: 500;
     font-size: 20px;
+}
+/* сдесь стили для header-mid*/
+.header-mid{
+    border: 1px solid red;
+}
+.logo{
+    border: 1px solid black;
+    display: inline-block;
+}
+.adress{
+    border: 1px solid black;
+    display: inline-block;
+}
+.email{
+    border: 1px solid black;
+    display: inline-block;
+}
+.tel{
+    border: 1px solid black;
+    display: inline-block;
 }

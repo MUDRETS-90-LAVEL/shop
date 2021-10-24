@@ -26,7 +26,7 @@
             </div>
             <div class="cart">
                 <a href="cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
-                <p> <span>1450</span> руб.</p>
+                 <label><span>1450</span> руб.</label>
             </div>
         </div>
         <div class="header-mid">
