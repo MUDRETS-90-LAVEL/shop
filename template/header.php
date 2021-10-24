@@ -10,5 +10,14 @@
 </head>
 <body>
 <header>
-    <div class="contener">Голова сайта</div>
+    <div class="contener">
+        <ul>
+            <li><a href="index">Главаная</a></li>
+            <li><a href="o_nas">О нас</a></li>
+            <li><a href="dostavka_i_oplata">Доставка и оплата</a></li>
+            <li><a href="feedback">Отзывы</a></li>
+            <li><a href="news">Новости</a></li>
+            <li><a href="contacts">Контакты</a></li>
+        </ul>
+    </div>
 </header>
