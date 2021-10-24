@@ -44,4 +44,3 @@ switch($pagelink)
 require "content/header.php";
 require "config/$pagelink.php";
 require "content/footer.php";
-?>
