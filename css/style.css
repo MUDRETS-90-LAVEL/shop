@@ -69,8 +69,40 @@
     border: 1px solid red;
 }
 .logo{
+    width: 165px;
     border: 1px solid black;
     display: inline-block;
+    position: relative;
+    margin-right: 80px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.logo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: green;
+    position: relative;
+    top: 4px;
+    left: 32px;
+}
+.logo p{
+    position: relative;
+    top: 2px;
+    left: 36px;
+    font-size: 18px;
+}
+.logo #cof1{
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+.logo #cof2{
+    position: absolute;
+    top: 18px;
+    left: 134px;
 }
 .adress{
     border: 1px solid black;

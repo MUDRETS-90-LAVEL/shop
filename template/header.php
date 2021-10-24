@@ -32,23 +32,23 @@
         <div class="header-mid">
             <div class="logo">
                 <a href="index">
-                    <i>logo</i>
+                    <i id="cof1">logo</i>
                     <span>Экспресс</span>
                     <p>Закусочная</p>
-                    <i>logo</i>
+                    <i id="cof2">logo</i>
                 </a>
             </div>
             <div class="adress">
                 <i>а</i>
-                <p>Наш адресс: <span>Елецкий район п.Капани 10a</span></p>
+                <p>Наш адресс: <br> <span>Елецкий район п.Капани 10a</span></p>
             </div>
             <div class="email">
                 <i>п</i>
-                <p>Напишите нам: <a href="mailto:express@info.com">express@info.com</a></p>
+                <p>Напишите нам: <br> <a href="mailto:express@info.com">express@info.com</a></p>
             </div>
             <div class="tel">
                 <i>t</i>
-                <p>Позвоните нам:</p>
+                <p>Позвоните нам:</p><br>
                 <a href="tel:+79205062623">+7 920 506 26 23</a>
             </div>
         </div>
