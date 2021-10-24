@@ -25,8 +25,8 @@
                 <a href="">Личный кабинет</a>
             </div>
             <div class="cart">
-                <a href="cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
-                 <label><span>1450</span> руб.</label>
+                <a href="cart"><i class="fa fa-shopping-cart fa-f2x" aria-hidden="true"></i></a>
+                <a href="cart"><span>1450</span> руб.</a>
             </div>
         </div>
         <div class="header-mid">
