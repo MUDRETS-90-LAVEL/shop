@@ -3,11 +3,9 @@
     margin: 0 auto;
     border: 1px solid black;
 }
-.header-top{
-    border: 1px solid red;
-}
 .header-top ul{
     display: inline-block;
+    vertical-align: 5px;
 }
 .header-top li{
     display: inline-block;
@@ -30,13 +28,13 @@
     content: none;
 }
 .fa-shopping-cart{
-    color: red;
-    width: 100px;
-    height: 100px;
+    color: green;
+    
 }
 .cabinet{
     display: inline-block;
     margin-left: 12%;
+    vertical-align: 5px;
 }
 .cabinet a{
     text-decoration: none;
@@ -49,12 +47,16 @@
     display: inline-block;
     margin-left: 14%;
 }
+.cart a{
+    margin-right: 10px;
+}
 .cart p{
     display: inline-block;
     color: darkgreen;
-    font-size: 16px;
+    font-size: 18px;
+    vertical-align: 5px;
 }
 .cart span{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
