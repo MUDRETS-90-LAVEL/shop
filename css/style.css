@@ -3,3 +3,50 @@
     margin: 0 auto;
     border: 1px solid black;
 }
+.header-top{
+    border: 1px solid red;
+}
+.header-top ul{
+    display: inline-block;
+}
+.header-top li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.header-top li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top li::after{
+    content: "|";
+    color: darkgrey;
+}
+
+.cabinet{
+    display: inline-block;
+    margin-left: 14%;
+}
+.cabinet a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+.cart{
+    display: inline-block;
+    margin-left: 18%;
+}
+.cart p{
+    display: inline-block;
+    color: darkgreen;
+    font-size: 16px;
+}
+.cart span{
+    font-weight: 500;
+    font-size: 18px;
+}
