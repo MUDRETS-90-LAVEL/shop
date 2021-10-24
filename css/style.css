@@ -29,6 +29,11 @@
 .header-top li:last-child::after{
     content: none;
 }
+.fa-shopping-cart{
+    color: red;
+    width: 100px;
+    height: 100px;
+}
 .cabinet{
     display: inline-block;
     margin-left: 12%;

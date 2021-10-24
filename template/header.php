@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/74c2bb2b5e.js"></script>
     <title><?= $title?></title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                 <a href="">Личный кабинет</a>
             </div>
             <div class="cart">
-                <a href="cart"><i>Корзина</i></a>
+                <a href="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 <p>450 <span>руб</span>.</p>
             </div>
         </div>
