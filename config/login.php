@@ -1,1 +1,3 @@
-<section>Авторизация</section>
+<div class="contener">
+    <section>Авторизация</section>
+</div>

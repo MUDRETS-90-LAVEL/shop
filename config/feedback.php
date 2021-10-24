@@ -1,1 +1,3 @@
-<section>Отзывы</section>
+<div class="contener">
+    <section>Отзывы</section>
+</div>

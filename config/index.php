@@ -1,1 +1,3 @@
-<section>основной контент</section>
+<div class="contener">
+    <section>основной контент</section>
+</div>

@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-        <section>
             <div class="contener">
                 <ul>
                     <li><a href="index">Главаня</a></li>
@@ -21,5 +20,5 @@
                     <li><a href="contacts">Контакты</a></li>
                 </ul>
             </div>
-        </section>
     </header>
+    <main>
