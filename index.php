@@ -55,3 +55,4 @@ switch($pagelink)
 require "template/header.php";
 require "contents/$pagelink.php";
 require "template/footer.php";
+?>
