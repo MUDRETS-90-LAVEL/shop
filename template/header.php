@@ -28,7 +28,8 @@
             </div>
             <div class="cabinet">
                 <a href=""><i class="fa fa-lock" aria-hidden="true"></i></a>
-                <a href="">Личный кабинет</a>
+                <a href="login">Вход</a>
+                <a href="registration">Регистрация</a>
             </div>
         </div>
         <div class="header-mid">
@@ -58,13 +59,7 @@
                 <a href="tel:+79205062623">+7 920 506 26 23</a></p>
             </div>
         </div>
-    </div>
-
-
-
-     
-    <div class="header-button">
-        <div class="contener">
+        <div class="header-button">
             <div class="header-button-left">
                 <ul>
                     <li><a href="hot-dish">Первое блюдо</a></li>
@@ -83,4 +78,9 @@
             </div>
         </div>
     </div>
+
+
+
+     
+
 </header>

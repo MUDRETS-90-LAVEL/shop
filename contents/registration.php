@@ -1,3 +1,3 @@
 <section>
-    <div class="contenr">Регистрация</div>
+    <div class="contener">Регистрация</div>
 </section>
