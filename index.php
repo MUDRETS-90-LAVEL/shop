@@ -48,6 +48,38 @@ switch($pagelink)
         $title = "Регистрация";
         break;
 
+    case "hot-dish":
+        $title = "Горячее блюдо";
+        break;
+
+    case "second-course":
+        $title = "Второе блюдо";
+        break;
+
+    case "garnish":
+        $title = "Гарниры";
+        break;
+
+    case "cold-snacks":
+        $title = "Холодные закуски";
+        break;
+
+    case "salads":
+        $title = "Салаты";
+        break;
+
+    case "beverages":
+        $title = "Напитки";
+        break;
+
+    case "baking-bread":
+        $title = "Выпечка, Хлеб";
+        break;
+
+    case "blyudo-na-zakaz":
+        $title = "Блюдо на заказ";
+        break;
+
     default:
         $title = "Ошибка";
 }

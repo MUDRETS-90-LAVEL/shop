@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/74c2bb2b5e.js"></script>
+    <link rel="icon" href="./logo.png" type="image/png">
     <title><?= $title?></title>
 </head>
 <body>
@@ -21,37 +22,65 @@
                 <li><a href="news">Новости</a></li>
                 <li><a href="contacts">Контакты</a></li>
             </ul>
-            <div class="cabinet">
-                <a href="">Личный кабинет</a>
-            </div>
             <div class="cart">
                 <a href="cart"><i class="fa fa-shopping-cart fa-f2x" aria-hidden="true"></i></a>
                 <a href="cart"><span>1450</span> руб.</a>
             </div>
+            <div class="cabinet">
+                <a href=""><i class="fa fa-lock" aria-hidden="true"></i></a>
+                <a href="">Личный кабинет</a>
+            </div>
         </div>
         <div class="header-mid">
             <div class="logo">
-                <a href="index">
-                    <i id="cof1">logo</i>
-                    <span>Экспресс</span>
-                    <p>Закусочная</p>
-                    <i id="cof2">logo</i>
-                </a>
+                <div class="header-mid-icon">
+                    <a href="index"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="text">
+                    <p><strong>Экспресс</strong></p>
+                    <p><span>Закусочная</span></p>
+                </div>
+                <div class="header-mid-icon header-icon">
+                    <a href="index"><img src="./img/logo.png" alt="logo"></a>
+                </div>
             </div>
             <div class="adress">
-                <i>а</i>
+                <img src="./img/addres.png" alt="">
                 <p>Наш адресс: <br> <span>Елецкий район п.Капани 10a</span></p>
             </div>
             <div class="email">
-                <i>п</i>
+                <a href="mailto:express@info.com"><img src="./img/mail.png" alt="mail"></a>
                 <p>Напишите нам: <br> <a href="mailto:express@info.com">express@info.com</a></p>
             </div>
             <div class="tel">
-                <i>t</i>
-                <p>Позвоните нам:</p><br>
-                <a href="tel:+79205062623">+7 920 506 26 23</a>
+                <a href="tel:+79205062623"><img src="./img/phone.png" alt="tel"></a>
+                <p>Позвоните нам:<br>
+                <a href="tel:+79205062623">+7 920 506 26 23</a></p>
             </div>
         </div>
-        <div class="header-button"></div>
+    </div>
+
+
+
+     
+    <div class="header-button">
+        <div class="contener">
+            <div class="header-button-left">
+                <ul>
+                    <li><a href="hot-dish">Первое блюдо</a></li>
+                    <li><a href="second-course">Второе блюдо</a></li>
+                    <li><a href="garnish">Гарниры</a></li>
+                    <li><a href="cold-snacks">Холодные закуски</a></li>
+                    <li><a href="salads">Салаты</a></li>
+                    <li><a href="beverages">Напитки</a></li>
+                    <li><a href="baking-bread">Выпечка,Хлеб</a></li>
+                    <li><a href="blyudo-na-zakaz">Блюдо на заказ</a></li>
+                </ul>
+            </div>
+            <div class="header-button-right">
+                <input type="search" placeholder="Поиск по сайту">
+                <a href=""><img src="./img/search.png" alt="search"></a>
+            </div>
+        </div>
     </div>
 </header>
