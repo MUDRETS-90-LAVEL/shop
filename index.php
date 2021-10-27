@@ -113,7 +113,15 @@ switch($pagelink)
         $title = "Ошибка";
 }
 
-require "template/header.php";
+if($isAdmin)
+    require "template/admin/header.php";
+else
+    require "template/default/header.php";
+
 require "contents/$pagelink.php";
-require "template/footer.php";
+
+if($isAdmin)
+    require "template/admin/footer.php";
+else
+    require "template/default/footer.php";
 ?>
