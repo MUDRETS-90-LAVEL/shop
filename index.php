@@ -1,4 +1,5 @@
 <?php
+require 'include/db.php';
 
 $url = explode("?", $_SERVER["REQUEST_URI"]);
 $url = urldecode($url[0]);

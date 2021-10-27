@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
     <script src="https://use.fontawesome.com/74c2bb2b5e.js"></script>
     <link rel="icon" href="./logo.png" type="image/png">
     <title><?= $title?></title>
@@ -15,7 +23,7 @@
     <div class="contener">
         <div class="header-top">
             <ul>
-                <li><a href="index">Главаная</a></li>
+                <li><a href="/shop">Главаная</a></li>
                 <li><a href="o_nas">О нас</a></li>
                 <li><a href="dostavka_i_oplata">Доставка и оплата</a></li>
                 <li><a href="feedback">Отзывы</a></li>
