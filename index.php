@@ -14,9 +14,8 @@ if(!file_exists("contents/$pagelink.php"))
 switch($pagelink)
 {
     case "index":
-        $title = "Главная страница";
-        // загрузить данные из бд
-        // $data = $mysql->select(...);
+        // в папке bin загрузка данных (логика)
+        require 'bin/index.php';
         break;
     
     case "cart":
