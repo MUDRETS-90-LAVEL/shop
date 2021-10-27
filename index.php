@@ -1,18 +1,43 @@
 <?php
 require 'include/db.php';
 
+// localhost/shop/admin/page
 $url = explode("?", $_SERVER["REQUEST_URI"]);
 $url = urldecode($url[0]);
 $url = explode("/",$url);
+// адреса страниц админки например
+$count = count($url);
+$isAdmin = false;
+// localhost/shop/admin/page
+if($count >= 3)
+{
+    if($url[$count - 2] == 'admin')
+    {
+        $isAdmin = true;
+    }
+}
+else
+{
+    // localhost/shop/admin
+    if($url[$count - 1] == 'admin')
+    {
+        $isAdmin = true;
+    }
+}
 $url = array_pop($url);
 
 $pagelink = $url == "" ? "index": $url;
+
+$pagelink = $isAdmin ? "admin/$pagelink" : $pagelink;
 
 if(!file_exists("contents/$pagelink.php"))
     $pagelink = "404";
 
 switch($pagelink)
 {
+    case 'admin/index':
+        // главная страница админа
+        break;
     case "index":
         // в папке bin загрузка данных (логика)
         require 'bin/index.php';
