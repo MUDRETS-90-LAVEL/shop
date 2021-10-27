@@ -2,4 +2,8 @@
 
 $title = "Главная страница";
 // загрузить данные из бд
-// $data = $mysql->select(...);
+$result = $mysql->query("SELECT name, link, img FROM categories;");
+
+$categories = $result->fetch_all(MYSQLI_ASSOC);
+
+unset($result);

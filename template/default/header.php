@@ -43,7 +43,7 @@
         <div class="header-mid">
             <div class="logo">
                 <div class="header-mid-icon">
-                    <a href="index"><img src="./img/logo.png" alt="logo"></a>
+                    <a href="index"><img src="<?= SITE_DIR ?>/img/logo.png" alt="logo"></a>
                 </div>
                 <div class="text">
                     <p><strong>Экспресс</strong></p>

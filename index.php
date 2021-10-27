@@ -80,11 +80,13 @@ switch($pagelink)
         break;
 
     case "hot-dish":
-        $title = "Горячее блюдо";
+        // в папке bin загрузка данных (логика)
+        require 'bin/hot-dish.php';
         break;
 
     case "second-course":
-        $title = "Второе блюдо";
+        // в папке bin загрузка данных (логика)
+        require 'bin/second-course.php';
         break;
 
     case "garnish":

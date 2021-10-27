@@ -67,6 +67,11 @@
 </section>
 <section>
     <div class="contener">Контент сайта
-    <?php var_damp($data) ?>
+    <?php foreach ($categories as $item): ?>
+        <div style="margin: 1em 0;">
+            <img style="width: 100px" src="<?= SITE_DIR ?>/img/categories/<?= $item['img']?>">
+            <a href="<?= SITE_DIR ?>/<?= $item['link']?>"><?= $item['name']?></a>
+        </div>
+    <?php endforeach;?>
     </div>
 </section>
