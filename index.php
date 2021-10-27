@@ -3,7 +3,7 @@ require 'include/db.php';
 
 define('SITE_DIR', '/shop');
 
-// localhost/shop/admin/page
+// localhost/shop/page
 $url = explode("?", $_SERVER["REQUEST_URI"]);
 $url = urldecode($url[0]);
 $url = explode("/",$url);
