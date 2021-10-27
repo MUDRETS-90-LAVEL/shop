@@ -66,5 +66,7 @@
     </div>
 </section>
 <section>
-    <div class="contener">Контент сайта</div>
+    <div class="contener">Контент сайта
+    <?php var_damp($data) ?>
+    </div>
 </section>
