@@ -1,6 +1,6 @@
 <section class="content">
         <div class="box">
-            <img src="img/user.png" alt="user">
+            <img src="<?= SITE_DIR ?>/img/user.png" alt="user">
             <form action="">
                 <div class="input-box">
                     <i class="fa fa-user" aria-hidden="true"></i>
