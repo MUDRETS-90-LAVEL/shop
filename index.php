@@ -19,6 +19,8 @@ switch($pagelink)
         break;
     
     case "cart":
+        // в папке bin загрузка данных (логика)
+        // require 'bin/cart.php';
         $title = "Карзина";
         break;
 
